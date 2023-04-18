@@ -49,9 +49,9 @@ class Clicker(object):
 
         is_positive = fn_max_dist > fp_max_dist
         if is_positive:
-            coords_y, coords_x = np.where(fn_mask_dt == fn_max_dist)  # coords is [y, x]
+            coords_y, coords_x = np.argwhere(fn_mask_dt == fn_max_dist).T  # coords is [y, x]
         else:
-            coords_y, coords_x = np.where(fp_mask_dt == fp_max_dist)  # coords is [y, x]
+            coords_y, coords_x = np.argwhere(fp_mask_dt == fp_max_dist).T  # coords is [y, x]
 
         return Click(is_positive=is_positive, coords=(coords_y[0], coords_x[0]))
 
