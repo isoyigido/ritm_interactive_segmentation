@@ -1,7 +1,7 @@
 import torch
 import torch.nn.functional as F
 from torchvision import transforms
-from isegm.inference.transforms import AddHorizontalFlip, SigmoidForPred, LimitLongestSide
+from ritm_interactive_segmentation.isegm.inference.transforms import AddHorizontalFlip, SigmoidForPred, LimitLongestSide
 
 
 class BasePredictor(object):

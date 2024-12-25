@@ -3,7 +3,7 @@ import argparse
 import importlib.util
 
 import torch
-from isegm.utils.exp import init_experiment
+from ritm_interactive_segmentation.isegm.utils.exp import init_experiment
 
 
 def main():

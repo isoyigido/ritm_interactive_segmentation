@@ -1,7 +1,7 @@
 import torch
 import numpy as np
 
-from isegm.utils import misc
+from ritm_interactive_segmentation.isegm.utils import misc
 
 
 class TrainMetric(object):

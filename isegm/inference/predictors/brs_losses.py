@@ -1,6 +1,6 @@
 import torch
 
-from isegm.model.losses import SigmoidBinaryCrossEntropyLoss
+from ritm_interactive_segmentation.isegm.model.losses import SigmoidBinaryCrossEntropyLoss
 
 
 class BRSMaskLoss(torch.nn.Module):

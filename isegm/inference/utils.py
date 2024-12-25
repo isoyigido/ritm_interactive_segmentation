@@ -4,8 +4,8 @@ from pathlib import Path
 import torch
 import numpy as np
 
-from isegm.data.datasets import GrabCutDataset, BerkeleyDataset, DavisDataset, SBDEvaluationDataset, PascalVocDataset
-from isegm.utils.serialization import load_model
+from ritm_interactive_segmentation.isegm.data.datasets import GrabCutDataset, BerkeleyDataset, DavisDataset, SBDEvaluationDataset, PascalVocDataset
+from ritm_interactive_segmentation.isegm.utils.serialization import load_model
 
 
 def get_time_metrics(all_ious, elapsed_time):

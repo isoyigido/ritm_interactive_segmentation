@@ -1,4 +1,4 @@
-from isegm.utils.exp_imports.default import *
+from ritm_interactive_segmentation.isegm.utils.exp_imports.default import *
 MODEL_NAME = 'sbd_hrnet18'
 
 

@@ -1,10 +1,10 @@
 import torch.nn as nn
 
-from isegm.utils.serialization import serialize
+from ritm_interactive_segmentation.isegm.utils.serialization import serialize
 from .is_model import ISModel
 from .modeling.deeplab_v3 import DeepLabV3Plus
 from .modeling.basic_blocks import SepConvHead
-from isegm.model.modifiers import LRMult
+from ritm_interactive_segmentation.isegm.model.modifiers import LRMult
 
 
 class DeeplabModel(ISModel):

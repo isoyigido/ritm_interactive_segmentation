@@ -1,8 +1,8 @@
 import torch
 
 from typing import List
-from isegm.inference.clicker import Click
-from isegm.utils.misc import get_bbox_iou, get_bbox_from_mask, expand_bbox, clamp_bbox
+from ritm_interactive_segmentation.isegm.inference.clicker import Click
+from ritm_interactive_segmentation.isegm.utils.misc import get_bbox_iou, get_bbox_from_mask, expand_bbox, clamp_bbox
 from .base import BaseTransform
 
 

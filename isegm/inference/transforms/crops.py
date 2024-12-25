@@ -4,7 +4,7 @@ import torch
 import numpy as np
 from typing import List
 
-from isegm.inference.clicker import Click
+from ritm_interactive_segmentation.isegm.inference.clicker import Click
 from .base import BaseTransform
 
 
